@@ -22,3 +22,6 @@ const todoSchema = new Schema(
   },
   { timestamps: true },
 );
+ 
+
+module.exports = mongoose.model("Todo", todoSchema)
